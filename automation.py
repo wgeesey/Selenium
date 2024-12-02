@@ -1,7 +1,5 @@
 # allows for utilizing webdriver to operate browsers
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.common.action_chains import ActionChains
@@ -65,7 +63,8 @@ input("press enter to close browser")
 
 
 
-
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.keys import Keys
 
 # Example of working with the ChromeDriver service:
 # service = Service(".\\chromedriver.exe")
