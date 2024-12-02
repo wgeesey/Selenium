@@ -1,5 +1,9 @@
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+
 
 # The code below is commented out but shows an alternative example of using Selenium to interact with a form.
 # You can refer to this for future exploration of Selenium's capabilities.
